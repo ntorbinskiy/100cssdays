@@ -1,18 +1,19 @@
 .frame3 {
+	background: #272c34;
+	z-index: 0;
+}
+.frame {
+	font-family: "Open Sans", Helvetica, sans-serif;
 	position: relative;
 	width: 400px;
 	height: 400px;
 	border-radius: 10px;
-	box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
 	overflow: hidden;
-	background: #272c34;
 	color: #333;
-	font-family: "Open Sans", Helvetica, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	z-index: 0;
+	box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
 }
-
 .center3 {
 	position: absolute;
 	top: 50%;
@@ -179,5 +180,12 @@
 	}
 	100% {
 		background-color: #272c34;
+	}
+}
+
+@media (max-width: 767px) {
+	.frame {
+		width: 285px;
+		height: 285px;
 	}
 }

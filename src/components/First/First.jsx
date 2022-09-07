@@ -2,7 +2,7 @@ import React from "react";
 import "./First.css";
 const First = () => {
 	return (
-		<div className="frame1">
+		<div className="frame frame1">
 			<div className="center1">
 				<div className="numbers">
 					<div className="one_0"></div>

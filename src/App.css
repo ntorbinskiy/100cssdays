@@ -9,6 +9,27 @@ html {
 	gap: 30px;
 	padding: 20px;
 }
+@media (max-width: 767px) {
+	.App {
+		flex-direction: column;
+		align-items:center;
+
+	}
+}
+@media (min-width: 768px) {
+	.App {
+		flex-direction: column;
+		align-items:center;
+
+	}
+}
+@media (min-width: 1024px) {
+	.App {
+		flex-direction: row;
+		align-items:center;
+
+	}
+}
 
 .main {
 	padding: 30px;
@@ -18,7 +39,7 @@ html {
 }
 
 .animate-charcter {
-	
+	text-align: center;
 	text-transform: uppercase;
 	background-image: linear-gradient(-225deg, #6691b6 0%, #0082c8 29%, #7ecaf3 67%, #667db6 100%);
 	background-size: auto auto;

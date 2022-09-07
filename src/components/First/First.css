@@ -10,20 +10,23 @@ edit the line if you wanna use other fonts */
 }
 /* use only the available space inside the 400x400 frame */
 .frame1 {
+	background: #fff;
+	background: rgb(2, 0, 36);
+	background: linear-gradient(to top right, #43389f 0%, #4ec6ca 100%);
+}
+.frame {
+	font-family: "Open Sans", Helvetica, sans-serif;
 	position: relative;
 	width: 400px;
 	height: 400px;
 	border-radius: 10px;
-	box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
 	overflow: hidden;
-	background: #fff;
 	color: #333;
-	font-family: "Open Sans", Helvetica, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	background: rgb(2, 0, 36);
-	background: linear-gradient(to top right, #43389f 0%, #4ec6ca 100%);
+	box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
 }
+
 .center1 {
 	position: absolute;
 	top: 50.8%;
@@ -86,4 +89,12 @@ edit the line if you wanna use other fonts */
 	border: 24px white solid;
 	z-index: 2;
 	box-shadow: 0 0 13px 0 rgb(0 0 0 / 20%);
+}
+
+
+@media (max-width: 767px) {
+	.frame {
+		width: 285px;
+		height: 285px;
+	}
 }

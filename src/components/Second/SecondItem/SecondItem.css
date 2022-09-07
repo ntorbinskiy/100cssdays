@@ -1,0 +1,88 @@
+.stick {
+	width: 80px;
+	height: 8px;
+	background-color: #abd1ff;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	box-shadow: 0px 3px 5px 0px #e54b22;
+	transition: all 0.5s;
+	animation-direction: alternate;
+}
+
+.active0 {
+	animation-name: active0;
+	animation-duration: 0.75s;
+	animation-fill-mode: forwards;
+}
+
+.active0_rev {
+	animation-name: active0_rev;
+	animation-duration: 0.5s;
+	animation-fill-mode: forwards;
+	animation-direction: reverse;
+}
+.active1 {
+	animation-name: active1;
+	animation-duration: 0.5s;
+	animation-fill-mode: forwards;
+}
+.active1_rev {
+	animation-name: active1_rev;
+	animation-duration: 0.5s;
+	animation-fill-mode: forwards;
+	animation-direction: reverse;
+}
+@keyframes active1 {
+	100% {
+		transform: scale(0);
+	}
+}
+@keyframes active1_rev {
+	100% {
+		transform: scale(0);
+	}
+}
+
+.active2_rev {
+	animation-name: active2_rev;
+	animation-duration: 0.5s;
+	animation-fill-mode: forwards;
+	animation-direction: reverse;
+}
+@keyframes active0 {
+	50% {
+		transform: translate(0px, 17px);
+	}
+	100% {
+		transform: translateY(10px) rotate(135deg);
+	}
+}
+@keyframes active0_rev {
+	50% {
+		transform: translate(0px, 17px);
+	}
+	100% {
+		transform: translateY(10px) rotate(135deg);
+	}
+}
+.active2 {
+	animation-name: active2;
+	animation-duration: 0.75s;
+	animation-fill-mode: forwards;
+}
+@keyframes active2 {
+	50% {
+		transform: translate(0px, -17px);
+	}
+	100% {
+		transform: translateY(-26px) rotate(45deg);
+	}
+}
+@keyframes active2_rev {
+	50% {
+		transform: translate(0px, -17px);
+	}
+	100% {
+		transform: translateY(-26px) rotate(45deg);
+	}
+}

@@ -1,0 +1,89 @@
+/* delete the following line if no text is used
+edit the line if you wanna use other fonts */
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Courier+Prime:wght@700&display=swap");
+
+* {
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Bree Serif", serif;
+	font-family: "Courier Prime", monospace;
+}
+/* use only the available space inside the 400x400 frame */
+.frame1 {
+	position: relative;
+	width: 400px;
+	height: 400px;
+	border-radius: 10px;
+	box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+	background: #fff;
+	color: #333;
+	font-family: "Open Sans", Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background: rgb(2, 0, 36);
+	background: linear-gradient(to top right, #43389f 0%, #4ec6ca 100%);
+}
+.center1 {
+	position: absolute;
+	top: 50.8%;
+	left: 50.5%;
+	transform: translate(-50%, -50%);
+}
+.numbers {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 17px;
+	position: relative;
+	height: 100px;
+	width: 200px;
+	right: 14px;
+}
+
+.one_0 {
+	height: 40px;
+	width: 20px;
+	border-radius: 20%;
+	background-color: hsl(0deg 0% 95%);
+	box-shadow: 0 0 13px 0 rgb(0 0 0 / 20%);
+	transform: rotate(47deg) translate(5px, -4px);
+	z-index: 1;
+}
+.one_1 {
+	position: relative;
+	height: 100px;
+	width: 24px;
+	background-color: white;
+	border-radius: 3px;
+	z-index: 30;
+	box-shadow: 0 0 13px 0 rgb(0 0 0 / 20%);
+}
+
+.text {
+	font-size: 24px;
+	color: white;
+	line-height: 40px;
+}
+.text_days {
+	font-size: 82px;
+}
+.zero_0 {
+	position: absolute;
+	left: 36px;
+	height: 100px;
+	width: 100px;
+	border-radius: 100%;
+	border: 24px white solid;
+	z-index: 3;
+	box-shadow: 0 0 13px 0 rgb(0 0 0 / 20%);
+}
+.zero_1 {
+	position: absolute;
+	right: -18px;
+	height: 100px;
+	width: 100px;
+	border-radius: 100%;
+	border: 24px white solid;
+	z-index: 2;
+	box-shadow: 0 0 13px 0 rgb(0 0 0 / 20%);
+}

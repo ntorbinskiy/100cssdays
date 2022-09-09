@@ -5,14 +5,14 @@ edit the line if you wanna use other fonts */
 * {
 	margin: 0;
 	box-sizing: border-box;
-	font-family: "Bree Serif", serif;
-	font-family: "Courier Prime", monospace;
 }
 /* use only the available space inside the 400x400 frame */
 .frame1 {
 	background: #fff;
 	background: rgb(2, 0, 36);
 	background: linear-gradient(to top right, #43389f 0%, #4ec6ca 100%);
+	font-family: "Bree Serif", serif;
+	font-family: "Courier Prime", monospace;
 }
 .frame {
 	font-family: "Open Sans", Helvetica, sans-serif;

@@ -3,6 +3,7 @@ import Second from './components/Second/Second';
 import Third from './components/Third/Third';
 import './App.css';
 import Fourth from './components/Foutrh/Fourth';
+import Fifth from './components/Fifth/Fifth';
 
 function App() {
 	return (
@@ -15,6 +16,7 @@ function App() {
 				<Second />
 				<Third />
 				<Fourth/>
+				<Fifth/>
 			</div>
 		</div>
 

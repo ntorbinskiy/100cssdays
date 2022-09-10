@@ -1,7 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
 
 .frame {
-	font-family: "Open Sans", Helvetica, sans-serif;
 	position: relative;
 	width: 400px;
 	height: 400px;
@@ -25,6 +24,7 @@
 .frame6 {
 	background: rgb(153, 146, 78);
 	background: linear-gradient(45deg, rgba(153, 146, 78, 1) 18%, rgba(245, 205, 77, 1) 75%);
+	font-family: "Open Sans", Helvetica, sans-serif;
 }
 .center6 {
 	width: 300px;
@@ -47,7 +47,7 @@
 	row-gap: 10px;
 	cursor: pointer;
 }
-.text,
+.text_6,
 .btn,
 .stats {
 	color: rgb(144, 128, 111);
@@ -60,7 +60,7 @@ img {
 }
 .name {
 	font-size: 17px;
-	line-height: 4px;
+	line-height: 26px;
 	font-weight: bold;
 }
 .job {
@@ -117,7 +117,7 @@ img {
 	width: 76px;
 	height: 76px;
 	top: -3px;
-    left: 22px;
+	left: 22px;
 	border-width: 1px;
 	border-style: solid;
 	border-color: #786450 #786450 #786450 transparent;
@@ -131,7 +131,7 @@ img {
 	height: 82px;
 	border-width: 1px;
 	top: -6px;
-    left: 18px;
+	left: 18px;
 	border-style: solid;
 	border-color: #786450 transparent #786450 #786450;
 	border-radius: 50%;

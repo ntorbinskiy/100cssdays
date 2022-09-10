@@ -1,5 +1,4 @@
 .frame {
-	font-family: "Open Sans", Helvetica, sans-serif;
 	position: relative;
 	width: 400px;
 	height: 400px;
@@ -21,6 +20,7 @@
 }
 .frame5 {
 	background-color: rgb(70, 195, 151);
+	font-family: 'Open Sans', Helvetica, sans-serif;
 }
 .graphic {
 	width: 300px;

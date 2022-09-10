@@ -1,9 +1,9 @@
 .frame3 {
 	background: #272c34;
 	z-index: 0;
+	font-family: "Open Sans", Helvetica, sans-serif;
 }
 .frame {
-	font-family: "Open Sans", Helvetica, sans-serif;
 	position: relative;
 	width: 400px;
 	height: 400px;

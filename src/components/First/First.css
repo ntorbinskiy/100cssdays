@@ -1,6 +1,5 @@
 /* delete the following line if no text is used
 edit the line if you wanna use other fonts */
-@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Courier+Prime:wght@700&display=swap");
 
 * {
 	margin: 0;
@@ -15,7 +14,6 @@ edit the line if you wanna use other fonts */
 	font-family: "Courier Prime", monospace;
 }
 .frame {
-	font-family: "Open Sans", Helvetica, sans-serif;
 	position: relative;
 	width: 400px;
 	height: 400px;
@@ -90,7 +88,6 @@ edit the line if you wanna use other fonts */
 	z-index: 2;
 	box-shadow: 0 0 13px 0 rgb(0 0 0 / 20%);
 }
-
 
 @media (max-width: 767px) {
 	.frame {

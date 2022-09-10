@@ -15,8 +15,8 @@ const Sixth = () => {
 						<div class="circle2"></div>
 					</div>
 					<div className="text_wrap">
-						<div className="name text">Jessica Potter</div>
-						<div className="job text">Visual Artist</div>
+						<div className="name text_6">Jessica Potter</div>
+						<div className="job  text_6">Visual Artist</div>
 					</div>
 					<button className="follow btn">Follow</button>
 					<button className="message btn">Message</button>

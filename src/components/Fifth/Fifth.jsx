@@ -3,8 +3,8 @@ import "./Fifth.css";
 const Fifth = () => {
 	return (
 		<div>
-			<div class="frame frame5">
-				<div class="center center5">
+			<div className="frame frame5">
+				<div className="center center5">
 					<div className="graphic">
 						<div className="top">
 							<div className="weekly_rep">

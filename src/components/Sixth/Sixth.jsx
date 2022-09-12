@@ -3,16 +3,17 @@ import "./Sixth.css";
 
 const Sixth = () => {
 	return (
-		<div class="frame frame6">
-			<div class="center center6">
+		<div className="frame frame6">
+			<div className="center center6">
 				<div className="img">
-					<div class="img_">
+					<div className="img_">
 						<img
 							src="https://100dayscss.com/codepen/jessica-potter.jpg"
 							alt="100days"
+							className="img_pic"
 						/>
-						<div class="circle1"></div>
-						<div class="circle2"></div>
+						<div className="circle1"></div>
+						<div className="circle2"></div>
 					</div>
 					<div className="text_wrap">
 						<div className="name text_6">Jessica Potter</div>

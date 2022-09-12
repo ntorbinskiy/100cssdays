@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+.frame7 {
+	background-color: rgb(38, 64, 87);
+	font-family: "Open Sans", sans-serif;
+	font-family: "Open Sans", sans-serif;
+}
+.center7 {
+	width: 300px;
+	height: 300px;
+	left: 53%;
+}
+.nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: relative;
+	width: 100%;
+	height: 50px;
+	background-color: rgb(94, 152, 205);
+}
+.main_menu {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 3;
+	background: white;
+	transition: all 0.5s;
+}
+.nav_input {
+	position: absolute;
+	opacity: 0;
+	width: 250px;
+	height: 30px;
+	border-radius: 10px;
+	background-color: #fff;
+	border: none;
+	transition: all 0.5s;
+	outline: none;
+	pointer-events: none;
+	left: 24px;
+}
+.menu_icon {
+	position: absolute;
+	cursor: pointer;
+	width: 29px;
+	height: 15px;
+	left: 20px;
+	top: 20px;
+}
+.stick1 {
+	width: 20px;
+	height: 3px;
+	background-color: rgb(167, 209, 248);
+	border-radius: 5px;
+	transition: all 0.5s;
+}
+.circle_1 {
+	height: 7px;
+	width: 7px;
+	background-color: rgb(167, 209, 248);
+	border-radius: 100%;
+	position: absolute;
+	top: -2px;
+	left: 23px;
+	transition: all 0.5s;
+}
+.stick2 {
+	width: 29px;
+	height: 4px;
+	background-color: rgb(167, 209, 248);
+	border-radius: 5px;
+	position: relative;
+	top: 6px;
+	transition: all 0.5s;
+}
+
+.stick_search {
+	width: 13px;
+	height: 2px;
+	background-color: rgb(167, 209, 248);
+	transform: rotate(45deg);
+	border-radius: 3px;
+	position: absolute;
+	top: 31px;
+	right: 18px;
+	transition: all 0.5s;
+}
+.circle_search {
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	border: 2px rgb(167, 209, 248) solid;
+	border-radius: 100%;
+	top: 14px;
+	right: 26px;
+	transition: all 0.5s;
+}
+.title {
+	position: relative;
+	right: 10px;
+	color: white;
+	font-weight: 600;
+	font-size: 14px;
+	right: -49px;
+}
+.search_ {
+	cursor: pointer;
+}
+.line {
+	position: absolute;
+	bottom: 124px;
+	left: -97px;
+	background-color: rgb(235, 235, 235);
+	width: 250px;
+	height: 3px;
+	transform: rotate(90deg);
+}
+.posts {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 200px;
+}
+.post {
+	color: rgb(155, 155, 155);
+	cursor: pointer;
+}
+.post_time {
+	font-size: 11px;
+	font-weight: 500;
+}
+.post_text {
+	font-size: 14px;
+	color: rgb(94, 94, 94);
+}
+.post_name {
+	font-weight: 700;
+}
+.circle_2 {
+	position: absolute;
+	left: 22.5px;
+	width: 10px;
+	height: 10px;
+	border: 2px rgb(99, 155, 206) solid;
+	background: white;
+	border-radius: 100%;
+}
+.post {
+	margin: 25px 20px 25px 43px;
+}
+.post_1 {
+	margin-bottom: 10px;
+}
+.post_2 {
+	margin-top: 0;
+}
+.post_3 {
+	margin-top: 0;
+}
+.search_:hover .stick_search {
+	background-color: white;
+}
+.search_:hover .circle_search {
+	border-color: #fff;
+}
+
+.menu_icon:hover .stick1 {
+	background-color: white;
+}
+.menu_icon:hover .stick2 {
+	background-color: white;
+}
+
+.menu_icon:hover .circle_1 {
+	background-color: white;
+}
+.post:hover .post_text {
+	color: rgb(99, 155, 206);
+}
+.post:hover .post_time {
+	color: rgb(99, 155, 206);
+}
+.active {
+	opacity: 1;
+	transform: translateX(0);
+	opacity: 1;
+	pointer-events: all;
+	left: 4px;
+}
+
+.back {
+	width: 150px;
+	height: 250px;
+	background-color: rgb(67, 98, 125);
+	box-shadow: 5px 5px 8px 0 rgb(0 0 0 / 20%);
+	border-radius: 3px;
+	transform: translate3d(20px, 0, 0);
+	transition: all 0.5s ease-in-out;
+	position: absolute;
+	left: -4px;
+	top: 27px;
+}
+
+.back_list {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+	justify-content: space-evenly;
+}
+.back_list_item {
+	cursor: pointer;
+    color: rgb(123, 154, 181);
+    transition: 0.5s all;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+	padding-top: 12px;
+}
+.back.active {
+	box-shadow: 5px 5px 8px 0 rgb(0 0 0 / 20%);
+	transform: translate3d(0, 0, 0);
+}
+
+.main_menu.active {
+	transform: translate3d(140px, 0, 0);
+}
+
+.back_list_item:hover {
+	color:white;
+	background-color: rgb(49, 71, 91);
+}

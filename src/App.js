@@ -5,6 +5,7 @@ import Fourth from './components/Foutrh/Fourth';
 import Fifth from './components/Fifth/Fifth';
 import Sixth from './components/Sixth/Sixth';
 import './App.css';
+import Seventh from './components/Seventh/Seventh';
 function App() {
 	return (
 		<div className='main'>
@@ -18,6 +19,7 @@ function App() {
 				<Fourth/>
 				<Fifth/>
 				<Sixth/>
+				<Seventh/>
 			</div>
 		</div>
 

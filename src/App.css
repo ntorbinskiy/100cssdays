@@ -16,7 +16,6 @@ html {
 	box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
 }
 
-
 .App {
 	display: flex;
 	flex-direction: row;
@@ -65,7 +64,6 @@ html {
 	-webkit-text-fill-color: transparent;
 	animation: textclip 2s linear infinite;
 	display: inline-block;
-	font-size: 30px;
 	font-family: "Bree Serif", serif;
 	font-family: "Courier Prime", monospace;
 	font-size: 40px;
